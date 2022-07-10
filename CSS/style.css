@@ -7,11 +7,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 16px;
 }
 
 body, html{
     width: 100%;
     height: 100%;
+
+    background-color: #594841;
 }
 
 /*---------MENU DE NAVEGAÇÃO----------*/
@@ -20,26 +23,27 @@ header{
     margin: 0 auto;
     margin-top: 20px;
     max-width: 1020px;
-    width: 100%;
+    width: 90%;
+    border-radius: 5px 5px 0px 0px;
 
-    background-color: #080409;
+    background-color: #0D0709;
 }
 
 header nav{
     margin: 0 auto;
+    padding: 10px;
     max-width: 1020px;
-    width: 100%;
-
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
 
 header nav a img{
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 header nav ul{
@@ -47,17 +51,18 @@ header nav ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 40px;
 }
 
 header nav ul li a{
+    font-size: 0.9rem;
     text-decoration: none;
-    color: #ffffff;
+    color: #F2F1F2;
 }
 
 header nav ul li a:hover{
-    color: #eb3333;
-    border-bottom: 5px solid #eb3333;
+    color: #eb4646;
+    border-bottom: 5px solid #eb4646;
     border-radius: 5px;
 
     transition: 0.2s;
@@ -65,3 +70,60 @@ header nav ul li a:hover{
 }
 
 /*--------------------------------------*/
+
+/*------------------SOBRE----------------*/
+
+#sobre{
+    padding: 110px 50px 110px 50px;
+    margin: 0 auto;
+    max-width: 1020px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: end;
+    
+    background-color: #0D0709cc;
+}
+
+#sobre .sobre-img{
+    text-align: center;
+    width: 50%;
+
+}
+
+#sobre .sobre-img img{
+    margin-left: -100px;
+    width: 50%;
+
+}
+
+#sobre .sobre-text{
+    width: 50%;
+}
+
+#sobre .sobre-text h1{
+    color: #F2F1F2;
+    text-shadow: 5px 1px 10px black;
+}
+
+#sobre .sobre-text p{
+    font-size: 0.8rem;
+    text-indent: 2em;
+    text-align: justify;
+
+    color: #594841;
+    text-shadow: 5px 1px 10px black;
+}
+
+/*----------------------------------------*/
+
+/*-----------------PROJETOS------------------*/
+
+#projetos{
+    padding: 110px 50px 110px 50px;
+    margin: 0 auto;
+    max-width: 1020px;
+    width: 90%;
+}
