@@ -74,7 +74,7 @@ header nav ul li a:hover{
 /*------------------SOBRE----------------*/
 
 #sobre{
-    padding: 110px 50px 110px 50px;
+    padding: 120px 50px 120px 50px;
     margin: 0 auto;
     max-width: 1020px;
     width: 90%;
@@ -105,7 +105,7 @@ header nav ul li a:hover{
 
 #sobre .sobre-text h1{
     color: #F2F1F2;
-    text-shadow: 5px 1px 10px black;
+    text-shadow: 5px 1px 10px #000000;
 }
 
 #sobre .sobre-text p{
@@ -114,7 +114,7 @@ header nav ul li a:hover{
     text-align: justify;
 
     color: #594841;
-    text-shadow: 5px 1px 10px black;
+    text-shadow: 5px 1px 10px #000000;
 }
 
 /*----------------------------------------*/
@@ -122,8 +122,16 @@ header nav ul li a:hover{
 /*-----------------PROJETOS------------------*/
 
 #projetos{
-    padding: 110px 50px 110px 50px;
+    padding: 100px 50px 110px 50px;
     margin: 0 auto;
     max-width: 1020px;
     width: 90%;
+
+    /*background-color: #0D0709;*/
+}
+
+#projetos h1{
+    color: #F2F1F2;
+    text-align: center;
+
 }
