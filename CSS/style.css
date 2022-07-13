@@ -210,6 +210,14 @@ header nav ul li a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    background-color: #0D0709;
+}
+
+#conhecimentos.con-img{
+    text-align: center;
+    width: 100%;
+    
 }
 
 #conhecimentos img{
