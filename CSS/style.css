@@ -126,7 +126,7 @@ header nav ul li a:hover{
     padding: 235px 50px 110px 50px;
     margin: 0 auto;
     max-width: 1020px;
-    width: 90%;
+    width: 90vw;
 
     background-color: #0D0709;
 }
@@ -201,4 +201,8 @@ header nav ul li a:hover{
 /*----------------------------------------*/
 /*------------CONHECIMENTOS---------------*/
 
-
+#conhecimentos{
+    max-width: 1020px;
+    width: 90vw;
+    margin: 0 auto;
+}
