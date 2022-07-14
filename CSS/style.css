@@ -83,7 +83,7 @@ header nav ul li a:hover{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: end;
+    align-items: center;
     
     background-color: #0D0709cc;
 }
