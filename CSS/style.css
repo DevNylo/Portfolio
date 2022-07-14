@@ -215,13 +215,26 @@ header nav ul li a:hover{
 }
 
 #conhecimentos.con-img{
-    text-align: center;
     width: 100%;
+
     
 }
 
+.con-img ul{
+    width: 100%;
+
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
 #conhecimentos img{
-    width: 50px;
+    width: 150px;
+    
 }
 
 #conhecimentos h1{
