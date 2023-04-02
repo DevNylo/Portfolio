@@ -248,11 +248,10 @@ span{
     width: 10vw;
     margin-bottom: 5rem;
     transition: .1s ease;
-    cursor: not-allowed;
 }
 
 .conhecimentos ul li img:hover{
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
 .contato h2{
@@ -410,6 +409,10 @@ span{
 
     .conhecimentos h2{
         margin-bottom: 3rem;
+    }
+
+    .conhecimentos ul img{
+        width: 15vw;
     }
 
 
