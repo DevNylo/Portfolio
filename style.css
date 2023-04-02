@@ -17,7 +17,7 @@
     --bg-color:#1f242d;
     --second-bg-color:#323946;
     --text-color:#fff;
-    --main-color:#FF8300;
+    --main-color: #ffb20c;
 }
 
 html{
@@ -215,3 +215,27 @@ span{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+
+.conhecimentos ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.conhecimentos h2{
+    margin-bottom: 5rem;
+}
+
+.conhecimentos ul img{
+    width: 10vw;
+    margin-bottom: 5rem;
+    transition: .1s ease;
+    cursor: not-allowed;
+}
+
+.conhecimentos ul li img:hover{
+    transform: scale(1.2);
+}
+
