@@ -194,10 +194,12 @@ span{
     border-radius: 2rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
+    transition: .3s ease;
 }
 
 .projetos-container .caixa-de-projetos:hover{
     border-color: var(--main-color);
+    transform: scale(1.02);
 }
 
 .caixa-de-projetos i{
