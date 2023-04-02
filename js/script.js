@@ -54,6 +54,18 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
+/*SCROLL REVEAL*/
+
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.home-content, .cabecalho', { origin: 'top' });
+ScrollReveal().reveal('.home-vid, .sobre-vid, .sobre-content, .projetos-container, .conhecimentos ul, .contato form', { origin: 'bottom' });
+
 
 
 
