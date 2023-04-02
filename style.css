@@ -418,4 +418,33 @@ span{
         transform: scale(2.0);
     }
 
+    @media (max-width: 450px){
+        html{
+            font-size: 50%;
+        }
+        .contato form .inputs-box input{
+            width: 100%;
+        }
+        .footer{
+            flex-direction: column-reverse;
+        }
+        .footer p {
+            text-align: center;
+            margin-top: 2rem;
+        }
+    }
+    @media (max-width: 365px){
+        .home-vid video{
+            width: 90vw;
+        }
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
 }

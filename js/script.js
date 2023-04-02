@@ -1,7 +1,14 @@
 /*TOGGLE ICON DA NAVBAR*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
-document.getElementById('autoplay').play();
+
+var autoPlayVideo = document.getElementById("autoplay-vid");
+autoPlayVideo.oncanplaythrough = function() {
+    autoPlayVideo.muted = true;
+    autoPlayVideo.play();
+    autoPlayVideo.pause();
+    autoPlayVideo.play();
+}
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
