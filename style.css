@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+h1,h2,h3,p,span,a{
+    text-shadow: 0px 2px 10px #000000;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -100,7 +104,7 @@ span{
 }
 
 .home-vid video{
-    width: 35vw;
+    width: 40vw;
 }
 
 .home-content p{
@@ -153,7 +157,7 @@ span{
 }
 
 .sobre-vid video{
-    width: 35vw;
+    width: 40vw;
 }
 
 .cabecalho{
@@ -195,6 +199,7 @@ span{
     text-align: center;
     border: .2rem solid var(--bg-color);
     transition: .3s ease;
+    box-shadow: 7px 2px 10px -1px rgba(0, 0, 0, 0.64);
 }
 
 .projetos-container .caixa-de-projetos:hover{
@@ -214,6 +219,10 @@ span{
 .caixa-de-projetos p{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+}
+
+.conhecimentos{
+    background: var(--second-bg-color);
 }
 
 .conhecimentos ul{
@@ -239,3 +248,43 @@ span{
     transform: scale(1.2);
 }
 
+.contato h2{
+    margin-bottom: 3rem;
+}
+
+.contato form{
+    max-height: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contato form .inputs-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contato form .inputs-box input,
+.contato form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contato form .inputs-box input{
+    width: 49%;
+}
+
+.contato form textarea{
+    resize: none;
+}
+
+.contato form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
