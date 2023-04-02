@@ -414,6 +414,8 @@ span{
     .conhecimentos ul img{
         width: 15vw;
     }
-
+    .conhecimentos ul img:hover{
+        transform: scale(2.0);
+    }
 
 }
