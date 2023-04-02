@@ -1,4 +1,4 @@
-<!-- TOGGLE ICON DA NAVBAR-->
+/*TOGGLE ICON DA NAVBAR*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -7,7 +7,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
-<!--ALTERAÇÃO NA SELEÇÃO DE SESSÕES-->
+/*ALTERAÇÃO NA SELEÇÃO DE SESSÕES*/
 
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a')
@@ -27,11 +27,15 @@ window.onscroll = () => {
         };
     });
 
-    <!--STICKY NAVBAR-->
+    /*STICKY NAVBAR*/
 
     let header = document.querySelector('header');
 
     header.classList.toggle('sticky', window.scrollY > 100)
+
+    /* REMOVER TOGGLE ICON QUANDO CLICAR*/
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
 };
 
 

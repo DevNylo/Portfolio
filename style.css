@@ -113,6 +113,7 @@ span{
 
 .home-content p{
     font-size: 1.6rem;
+    text-align: justify;
 }
 
 .midia-social a{
@@ -181,6 +182,7 @@ span{
 .sobre-content p{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    text-align: justify;
 }
 
 .projetos h2{
@@ -223,6 +225,7 @@ span{
 .caixa-de-projetos p{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+    text-align: justify;
 }
 
 .conhecimentos{
@@ -340,6 +343,10 @@ span{
     section{
         padding: 10rem 3% 2rem;
     }
+
+    .projetos{
+        padding-bottom: 7rem;
+    }
     .footer{
         padding: 2rem 3%;
     }
@@ -370,4 +377,40 @@ span{
         font-size: 2rem;
         margin: 3rem 0;
     }
+
+    .home{
+        flex-direction: column;
+    }
+
+    .home-content h3{
+        font-size: 2.6rem;
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+    }
+
+    .home-vid video{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .sobre{
+        flex-direction: column-reverse;
+    }
+
+    .sobre video{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .projetos h2{
+        margin-bottom: 3rem;
+    }
+
+    .conhecimentos h2{
+        margin-bottom: 3rem;
+    }
+
+
 }
