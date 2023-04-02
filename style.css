@@ -266,7 +266,12 @@ span{
 }
 
 .conhecimentos h2{
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+}
+.conhecimentos h3{
+    text-align: center;
+    font-size: 2.0rem;
+    margin-bottom: 3rem;
 }
 
 .conhecimentos ul img{
@@ -277,6 +282,19 @@ span{
 
 .conhecimentos ul li img:hover{
     transform: scale(1.5);
+}
+
+.conhecimentos .legenda{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.conhecimentos .legenda h3{
+    color: var(--main-color);
+}
+
+.conhecimentos .legenda img{
+    width: 20vw;
 }
 
 .contato h2{
@@ -436,8 +454,20 @@ span{
         margin-bottom: 3rem;
     }
 
+    .conhecimentos h2{
+        margin-bottom: 3rem;
+    }
+
+    .conhecimentos h3{
+        font-size: 1.6rem;
+    }
+
     .conhecimentos ul img{
         width: 15vw;
+    }
+
+    .conhecimentos .legenda img{
+        width: 35vw;
     }
     .conhecimentos ul img:hover{
         transform: scale(2.0);
