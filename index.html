@@ -7,116 +7,50 @@
     <meta name="keywords" content="Programador , Programação, Criação, Sites, FullStack,Front-End, Back-End, Portifólio">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Danilo Santos Rocha">
-    <script src="https://kit.fontawesome.com/9519706c35.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icon/Logo-DNL.svg" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
     <title>DevNylo | Início</title>
 </head>
 <body>
-<!-- MENU DE NAVEGAÇÃO E LOGOTIPO -->
-    <header>
-        <nav>
-            <a href="index.html"><img src="image/Dnl-header.png" alt="Icone" width="80"></a>
-            <ul>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#Projetos">Projetos</a></li>
-                <li><a href="#Conhecimentos">Conhecimentos</a></li>
-                <li><a href="#">Experiências</a></li>
-            </ul>
+
+    <header class="header">
+        <a href="#" class="logo">DevNyl◉</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#inicio" class="active">INÍCIO</a>
+            <a href="#sobre">SOBRE</a>
+            <a href="#projetos">PROJETOS</a>
+            <a href="#conhecimentos">CONHECIMENTOS</a>
         </nav>
+
     </header>
-<!---------------------------------------->
-<!-----------------SOBRE------------------>
 
-    <section id="sobre">
-        <div class="sobre-img">
-            <img src="image/Logo-DNL.png" alt="DevNylo Café">
-        </div>
-        <div class="sobre-text">
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Olá, sou eu!</h3>
             <h1>Danilo Rocha</h1>
-            <p>Amante de um bom café e uma boa música, sou um prático entendedor quando o assunto é tecnologia, tudo que é novo para mim eu entendo com facilidade, me considero minimalista e um bom autodidata, atualmente trabalho como recepcionista em um ambulatório médico desde 2020 e lidar com pessoas e trabalho em equipe também se tornou simples. Iniciei meus estudos na área em 04/2022, me interesso por tecnologia desde a minha infância e sempre fui muito ligado a essa área e infelizmente só tive a oportunidade de levar a sério agora. Descobri sobre programação em minha infância, quando tentava traduzir alguns software e jogos na qual eu adorava, acho que todo mundo comecou assim, viu um códido e se perguntou o que era e como funcionava, enfim eu não fui diferente.</p>
+            <h3>E eu sou um <span>Backend Developer</span></h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                A ab aspernatur at consequatur ex libero maxime necessitatibus nobis quo!
+                Animi blanditiis dolore nam non optio tenetur voluptatem! Aperiam fuga, fugiat.
+            </p>
+            <div class="midia-social">
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bx-envelope' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="">
         </div>
     </section>
-
-<!---------------------------------------->
-<!----------------PROJETOS---------------->
-
-    <section id="projetos">
-        <embed src="https://www.w3schools.com/html/horse.ogg" autostart="true" hidden="false" loop="true"></embed>
-        <h1><a name="Projetos">Projetos</a></h1>
-        <ul>
-            <!--TODAS AS IMAGENS NOS CONTEÚDOS DEVEM CONTER 250/200px-->
-            <li>
-                <img src="image/em-breve.png" alt="Item 1">
-                <div class="conteudo">
-                    <p class="nome">Projeto 1</p>
-                    <a href="" class="ver-mais">Ver mais</a>
-                </div>
-            </li>
-            <li>
-                <img src="image/em-breve.png" alt="Item 1">
-                <div class="conteudo">
-                    <p class="nome">Projeto 2</p>
-                    <a href="" class="ver-mais">Ver mais</a>
-                </div>
-            </li>
-            <li>
-                <img src="image/em-breve.png" alt="Item 1">
-                <div class="conteudo">
-                    <p class="nome">Projeto 3</p>
-                    <a href="" class="ver-mais">Ver mais</a>
-                </div>
-            </li>
-            <li>
-                <img src="image/em-breve.png" alt="Item 1">
-                <div class="conteudo">
-                    <p class="nome">Projeto 4</p>
-                    <a href="" class="ver-mais">Ver mais</a>
-                </div>
-            </li>
-            <li>
-                <img src="image/em-breve.png" alt="Item 1">
-                <div class="conteudo">
-                    <p class="nome">Projeto 5</p>
-                    <a href="" class="ver-mais">Ver mais</a>
-                </div>
-            </li>
-            <li>
-                <img src="image/em-breve.png" alt="Item 1">
-                <div class="conteudo">
-                    <p class="nome">Projeto 6</p>
-                    <a href="" class="ver-mais">Ver mais</a>
-                </div>
-            </li>
-        </ul>
-
-    </section>
-<!----------------------------------------->
-<!-------------CONHECIMENTOS--------------->
-
-    <section id="conhecimentos">
-        <h1><a name="Conhecimentos">Conhecimentos</a></h1>
-        <div class="con-img">
-            <ul>
-                <li><img src="image/icones-conhecimentos/html5.svg" alt="HTML"></li>
-                <lI><img src="image/icones-conhecimentos/css3.svg" alt="CSS"></lI>
-                <li><img src="image/icones-conhecimentos/javascript.svg" alt="JS"></li>
-                <li><img src="image/icones-conhecimentos/git.svg" alt="GIT"></li>
-                <li><img src="image/icones-conhecimentos/github.png" alt="GITHUB"></li>
-                <li><img src="image/icones-conhecimentos/python.svg" alt="PYTHON"></li>
-                <li><img src="image/icones-conhecimentos/nodejs.svg" alt="NODEJS"></li>
-                <li><img src="image/icones-conhecimentos/php.svg" alt="PHP"></li>
-                <li><img src="image/icones-conhecimentos/mysql.svg" alt="MySQL"></li>
-                <li><img src="image/icones-conhecimentos/react.svg" alt="REACT"></li>
-                <li><img src="image/icones-conhecimentos/firebase.svg" alt="FIREBASE"></li>
-                <li><img src="image/icones-conhecimentos/ubuntu.svg" alt="UBUNTU"></li>
-            </ul>
-        </div>
-
-    </section>
-
 
 </body>
 </html>
