@@ -388,6 +388,9 @@ span{
     section{
         padding: 10rem 3% 2rem;
     }
+    .home-content h3{
+        font-size: 2.8rem;
+    }
 
     .projetos{
         padding-bottom: 7rem;
@@ -397,7 +400,7 @@ span{
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 780px){
     #menu-icon{
         display: block;
     }
@@ -425,6 +428,7 @@ span{
 
     .home{
         flex-direction: column;
+        min-height: 80vh;
     }
 
     .home-content h3{
@@ -479,6 +483,9 @@ span{
     @media (max-width: 450px){
         html{
             font-size: 50%;
+        }
+        .home-vid video{
+            display: none;
         }
         .contato form .inputs-box input{
             width: 100%;
