@@ -170,9 +170,9 @@ span{
 
 .sobre{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     background: var(--second-bg-color);
 }
 
@@ -440,7 +440,7 @@ span{
     }
 
     .home-gif img{
-        width: 70vw;
+        width: 80vw;
         margin-top: 4rem;
     }
 
@@ -449,8 +449,8 @@ span{
     }
 
     .sobre img{
-        width: 50vw;
-        margin-top: 4rem;
+        width: 60vw;
+        margin-top: 1rem;
     }
 
     .projetos h2{
