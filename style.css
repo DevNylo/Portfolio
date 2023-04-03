@@ -170,7 +170,7 @@ span{
 
 .sobre{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 2rem;
     background: var(--second-bg-color);
