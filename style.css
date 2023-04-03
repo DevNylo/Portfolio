@@ -177,7 +177,7 @@ span{
 }
 
 .sobre-img img{
-    width: 32vw;
+    width: 30vw;
     border-radius: 50%;
     animation: floatImage 4s ease-in-out infinite;
 }
