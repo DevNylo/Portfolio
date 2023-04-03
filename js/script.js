@@ -2,22 +2,6 @@
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
-var autoPlayVideo = document.getElementById("autoplay-vid");
-autoPlayVideo.oncanplaythrough = function() {
-    autoPlayVideo.muted = true;
-    autoPlayVideo.play();
-    autoPlayVideo.pause();
-    autoPlayVideo.play();
-}
-
-var autoPlayVideo = document.getElementById("autoplay-vid2");
-autoPlayVideo.oncanplaythrough = function() {
-    autoPlayVideo.muted = true;
-    autoPlayVideo.play();
-    autoPlayVideo.pause();
-    autoPlayVideo.play();
-}
-
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
