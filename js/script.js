@@ -1,3 +1,26 @@
+/*AUTOPLAY*/
+
+var video = document.querySelector('video');
+
+var promise = video.play();
+
+if (promise === undefined) {
+    console.log('Promisified video play() not supported');
+} else {
+    promise.then(function() {
+        console.log('Video playback successfully initiated, returning a promise');
+    }).catch(function(error) {
+        console.log('Error initiating video playback: ', error);
+    });
+}
+
+video.onloadedmetadata = function() {
+    var fileName = this.currentSrc.replace(/^.*[\\/]/, '');
+    document.querySelector('#videoSrc').innerHTML = 'Playing video: ' + fileName;
+};
+
+
+
 /*TOGGLE ICON DA NAVBAR*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
