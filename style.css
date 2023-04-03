@@ -109,7 +109,7 @@ span{
     line-height: 1.3;
 }
 
-.home-vid video{
+.home-gif img{
     width: 37vw;
     animation: floatImage 4s ease-in-out infinite;
 }
@@ -439,7 +439,7 @@ span{
         font-size: 5rem;
     }
 
-    .home-vid video{
+    .home-gif img{
         width: 70vw;
         margin-top: 4rem;
     }
@@ -484,9 +484,7 @@ span{
         html{
             font-size: 50%;
         }
-        .home-vid video{
-            display: none;
-        }
+        
         .contato form .inputs-box input{
             width: 100%;
         }
@@ -499,7 +497,7 @@ span{
         }
     }
     @media (max-width: 365px){
-        .home-vid video{
+        .home-gif img{
             width: 90vw;
         }
     }
