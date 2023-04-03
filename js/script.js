@@ -48,7 +48,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .cabecalho', { origin: 'top' });
-ScrollReveal().reveal('.home-vid, .sobre-img, .sobre-content, .projetos-container, .conhecimentos ul, .contato form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-gif, .sobre-img, .sobre-content, .projetos-container, .conhecimentos ul, .contato form', { origin: 'bottom' });
 
 
 /*EFEITO DIGITAR*/
