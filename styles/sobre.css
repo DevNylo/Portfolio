@@ -47,6 +47,67 @@ html{
     color: var(--text-color);
 }
 
+@media (max-width: 991px) {
+    body{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.informacoes{
+        width: 100%;
+        border: none;
+    }
+
+    section.informacoes div img{
+        width: 30%;
+    }
+
+    section.informacoes div p{
+        width: 100% !important;
+    }
+
+    section.descricao{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media(max-width: 1200) {
+    html{
+        width: 100%;
+        font-size: 55%;
+    }
+    span{
+        font-size: 2rem;
+    }
+    
+}
+
+@media (max-width: 780px){
+    span{
+        font-size: 2rem;
+    }
+
+    section.informacoes div img{
+        width: 35%;
+    }
+}
+@media (max-width: 550px){
+    html{
+        font-size: 50%;
+    }
+
+   
+    section.informacoes div img{
+        width: 60%;
+    }
+    .descricao .desc-qualificacoes ul li img{
+        width: 10%;
+    }
+    
+}
+
 body{
     width: 100%;
     margin: 0 auto;
@@ -89,6 +150,10 @@ body{
     width: 100%;
     height: 100%;
     margin-bottom: 3rem;
+}
+
+section.informacoes div p{
+    width: 85%;
 }
 
 .informacoes div h1{
