@@ -23,7 +23,7 @@ strong{
     --bg-color:#1f242d;
     --second-bg-color:#323946;
     --text-color:#fff;
-    --main-color: #ffb20c;
+    --main-color: #ff8800;
 }
 
 html{
@@ -172,7 +172,7 @@ span{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 1rem;
+    gap: 5rem;
     background: var(--second-bg-color);
 }
 
