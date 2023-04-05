@@ -260,6 +260,14 @@ span{
     background: var(--second-bg-color);
 }
 
+.modalJv{
+    position: fixed;
+    width: 30%;
+    height: 500px;
+    background-color: #fdad005e;
+    z-index: 1000;
+}
+
 .conhecimentos ul{
     list-style: none;
     display: flex;
