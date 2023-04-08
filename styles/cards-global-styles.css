@@ -114,7 +114,7 @@ section div ul li a{
 
 
     background: var(--bg-color);
-    box-shadow:  0px 0px 10px 0px var(--main-color);
+    box-shadow:  1px 1px 5px 1px black;
 }
 
 section div ul li a:hover{
@@ -122,6 +122,7 @@ section div ul li a:hover{
     transition: .3s;
     transform: scale(1.1);
     cursor: pointer;
+    box-shadow:  0px 0px 5px 1px var(--main-color);
 }
 
 section div ul li h1{
@@ -151,11 +152,10 @@ section div ul li p{
         flex-direction: column;
     }
     .cardOne{
-        margin-bottom: 30px;
+
         width: 70%;
     }
     .cardTwo{
-        margin-bottom: 30px;
         width: 70%;
     }
     .cardThree{
