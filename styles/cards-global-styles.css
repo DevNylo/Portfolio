@@ -109,7 +109,6 @@ section div ul li a{
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
 
@@ -127,10 +126,11 @@ section div ul li a:hover{
 
 section div ul li h1{
     font-size: 2rem;
-    margin-bottom: 1rem;
+
 }
 
 section div ul li p{
+    margin-top: 12px;
     text-align: center;
 }
 
