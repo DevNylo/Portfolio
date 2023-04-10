@@ -1,10 +1,3 @@
-/* EVENTO ONCLICK */
-
-function click(){
-    console.log("Nenhum conteúdo foi indexado ainda.");
-}
-
-
 
 /*TOGGLE ICON DA NAVBAR*/
 let menuIcon = document.querySelector('#menu-icon');
