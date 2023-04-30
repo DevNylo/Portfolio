@@ -10,7 +10,7 @@ strong{
 }
 
 hr{
-    border-color: #ff8800;
+    border-color: #FF3131;
 }
 
 ul{
@@ -37,7 +37,7 @@ span{
     --bg-color:#1f242d;
     --second-bg-color:#323946;
     --text-color:#fff;
-    --main-color: #ff8800;
+    --main-color: #FF3131;
 }
 
 html{
@@ -143,7 +143,7 @@ body{
     width: 50%;
     height: 100%;
 
-    border-right: 2px solid #ff8800;
+    border-right: 2px solid var(--main-color);
 }
 
 .informacoes div{
