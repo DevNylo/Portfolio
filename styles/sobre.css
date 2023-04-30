@@ -176,9 +176,7 @@ section.informacoes div p{
 .informacoes div img{
     width: 40%;
     border-radius: 50% !important;
-    margin-bottom: 2rem;
-    
-    border: 2px solid var(--main-color);
+   
 }
 
 .informacoes div ul{   
