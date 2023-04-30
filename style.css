@@ -110,6 +110,7 @@ span{
 }
 
 .home-gif img{
+    border-radius: 35%;
     width: 37vw;
     animation: floatImage 4s ease-in-out infinite;
 }
