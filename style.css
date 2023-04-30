@@ -89,6 +89,14 @@ section{
     justify-content: center;
     align-items: center;
 }
+.home-content{
+    width: 55%;
+}
+
+.home-gif{
+    width: 45%;
+    text-align: center;
+}
 
 .home-content h3{
     font-size: 3.2rem;
@@ -111,7 +119,7 @@ span{
 
 .home-gif img{
     border-radius: 50%;
-    width: 37vw;
+    width: 28vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 
