@@ -17,6 +17,7 @@ strong{
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    list-style: none;
 }
 
 :root{
@@ -267,7 +268,46 @@ span{
 
 .conhecimentos{
     background: var(--second-bg-color);
+    text-align: center;
+    
 }
+
+
+.conhecimentos .icon-text h1{
+    font-size: 25px;
+}
+
+.conhecimentos .icon-text img{
+    width: 25vw;
+}
+
+.conhecimentos .list-description{
+    text-align: start;
+    margin-top: 50px;
+}
+.conhecimentos .list-description ul{
+    display: block;
+}
+.conhecimentos .list-description ul li{
+    margin-bottom: 50px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.conhecimentos .list-description ul li img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.conhecimentos .list-description ul li p{
+    text-indent: 5%;
+    text-align: justify;
+    font-size: 15px;
+}
+
+
 
 .modalJv{
     position: fixed;
@@ -277,49 +317,7 @@ span{
     z-index: 1000;
 }
 
-.conhecimentos ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-}
 
-.conhecimentos h2{
-    margin-bottom: 3rem;
-}
-.conhecimentos h3{
-    text-align: center;
-    font-size: 2.0rem;
-    margin-bottom: 3rem;
-}
-
-.conhecimentos ul img{
-    width: 13vw;
-    margin-bottom: 5rem;
-    transition: .1s ease;
-}
-
-.conhecimentos ul li img:hover{
-    transform: scale(1.5);
-}
-
-.conhecimentos .legenda{
-    text-align: center;
-    margin-bottom: 4rem;
-}
-
-.conhecimentos .legenda h3{
-    color: var(--main-color);
-}
-
-.conhecimentos .legenda img{
-    width: 20vw;
-}
-
-.contato h2{
-    margin-bottom: 3rem;
-}
 
 .contato form{
     max-height: 70rem;
