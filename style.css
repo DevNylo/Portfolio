@@ -291,6 +291,7 @@ span{
 .conhecimentos .list-description ul li{
     margin-bottom: 50px;
     display: flex;
+    flex-direction: column;
 
     justify-content: center;
     align-items: center;
